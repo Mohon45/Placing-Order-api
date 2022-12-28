@@ -18,3 +18,19 @@ const orderSchema = mongoose.Schema(
 const Order = mongoose.model("Order", orderSchema);
 
 module.exports = Order;
+
+// order post json example
+
+// {
+//   "orderItems" : [
+//       {
+//           "quantity": 3,
+//           "product" : "Orange"
+//       },
+//       {
+//           "quantity": 2,
+//           "product" : "Banana"
+//       }
+//   ],
+//   "phone": "+8801782638193"
+// }
